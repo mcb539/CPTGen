@@ -42,6 +42,30 @@ The configured constraints are shown below for the solver:
     <td>&lt;1,3,2 &nbsp; &gt;1,2,3</td>
     <td>&lt;1,3,1 &nbsp; &gt;1,2,2</td>
     <td>&lt;1,2,1 &nbsp; &gt;1,2,2</td>
+  </tr> 
+  <tr>
+    <td>2</td>
+    <td>1</td>
+    <td>&lt;2,1,3 &nbsp; &gt;2,3,4</td>
+    <td>&lt;2,1,2 &nbsp; &gt;2,3,3</td>
+    <td>&lt;2,3,2</td>
+    <td>&gt;2,1,3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>&lt;2,2,3</td>
+    <td>&lt;2,2,2</td>
+    <td>Anchor</td>
+    <td>&gt;2,2,3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>3</td>
+    <td>&lt;2,3,3 &nbsp; &gt;2,2,4</td>
+    <td>&lt;2,3,2 &nbsp; &gt;2,2,3</td>
+    <td>&lt;2,2,2</td>
+    <td>&gt;2,3,3</td>
   </tr>  
 </table>
 
