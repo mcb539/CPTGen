@@ -47,6 +47,7 @@ The configured constraints are shown below for the solver:
 
 
 Example console output:
+
 anchor: P:0.945000 
 X112: P:0.027000 
 X113: P:0.025000 
