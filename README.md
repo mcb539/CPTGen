@@ -1,5 +1,5 @@
 # CPTGen
-Bayesian Network CPT generator code for discrete variables
+Bayesian Network CPT generator code for discrete variables using Choco Solver (http://www.choco-solver.org)
 
 The example class CPTGen provided here is for a discrete variable of a Bayesian network, which has 2 discrete parents A and B for the child variable C. Parent A has 2 states and parent B has 3 states. Child variable C has 4 states.
 
