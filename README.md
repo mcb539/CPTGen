@@ -1,5 +1,5 @@
 # CPTGen
-Bayesian Network CPT generator code for discrete variables
+Bayesian Network CPT generator code for discrete variables using Choco Solver (http://www.choco-solver.org)
 
 The example class CPTGen provided here is for a discrete variable of a Bayesian network, which has 2 discrete parents A and B for the child variable C. Parent A has 2 states and parent B has 3 states. Child variable C has 4 states.
 
@@ -42,6 +42,30 @@ The configured constraints are shown below for the solver:
     <td>&lt;1,3,2 &nbsp; &gt;1,2,3</td>
     <td>&lt;1,3,1 &nbsp; &gt;1,2,2</td>
     <td>&lt;1,2,1 &nbsp; &gt;1,2,2</td>
+  </tr> 
+  <tr>
+    <td>2</td>
+    <td>1</td>
+    <td>&lt;2,1,3 &nbsp; &gt;2,3,4</td>
+    <td>&lt;2,1,2 &nbsp; &gt;2,3,3</td>
+    <td>&lt;2,3,2</td>
+    <td>&gt;2,1,3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>&lt;2,2,3</td>
+    <td>&lt;2,2,2</td>
+    <td>Anchor</td>
+    <td>&gt;2,2,3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>3</td>
+    <td>&lt;2,3,3 &nbsp; &gt;2,2,4</td>
+    <td>&lt;2,3,2 &nbsp; &gt;2,2,3</td>
+    <td>&lt;2,2,2</td>
+    <td>&gt;2,3,3</td>
   </tr>  
 </table>
 
